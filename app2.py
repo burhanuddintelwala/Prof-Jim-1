@@ -9,10 +9,11 @@ from keras.preprocessing.sequence import pad_sequences
 import pickle
 
 # Load the caption model
-caption_model = load_model(r"C:\Users\08bur\OneDrive\Desktop\final-submission\Image-captioning-simple-show-and-tell\caption_model.keras")
+caption_model = load_model(r"caption_model.keras")
+
 
 # Load the tokenizer
-with open(r"C:\Users\08bur\OneDrive\Desktop\final-submission\Image-captioning-simple-show-and-tell\tokenizer.pkl", 'rb') as f:
+with open(r"tokenizer.pkl", 'rb') as f:
     tokenizer = pickle.load(f)
 
 max_length = 34  # Define your max_length here

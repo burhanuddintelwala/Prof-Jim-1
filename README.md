@@ -1,1 +1,0 @@
-# Image-captioning-simple-show-and-tell
